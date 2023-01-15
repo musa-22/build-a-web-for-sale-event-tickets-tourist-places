@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+    <title>@ViewData["Title"] - EeventWebApplication</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EeventWebApplication.styles.css" asp-append-version="true" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+
+
+
+
+</head>
+<body>
+   
+
+
+    <!-- start navbar-->
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <a href="" class="navbar-brand">Events&Tours</a>
+
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#xxx"><span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse " id="xxx">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item"> <a href="" class="nav-link"> Home </a></li>
+          
+          
+
+
+          <li class="nav-item"> <a href="" class="nav-link"> Events </a></li>
+
+          <li class="nav-item"> <a href="" class="nav-link">Tours </a></li>
+
+         
+          <li class="nav-item"> <a asp-area="Admin" asp-controller="CategoryEventType" asp-action="Index" class="nav-link">Event Type </a></li>
+          <li class="nav-item"> <a asp-area="Admin" asp-controller="CategoryEvent" asp-action="Index" class="nav-link">Category </a></li>
+
+
+
+          <li class="nav-item"> <a href="" class="nav-link">Login </a></li>
+
+
+        </ul>
+
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  
+
+  <!-- End navbar-->
+
+    <div class="container">
+        <main role="main" class="pb-3">
+           <partial name="_Notification" />
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - EeventWebApplication - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

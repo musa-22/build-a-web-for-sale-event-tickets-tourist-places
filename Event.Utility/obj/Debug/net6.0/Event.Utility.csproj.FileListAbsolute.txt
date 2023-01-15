@@ -1,0 +1,14 @@
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\bin\Debug\net6.0\Event.Utility.deps.json
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\bin\Debug\net6.0\Event.Utility.runtimeconfig.json
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\bin\Debug\net6.0\Event.Utility.dll
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\bin\Debug\net6.0\Event.Utility.pdb
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.csproj.AssemblyReference.cache
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.AssemblyInfoInputs.cache
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.AssemblyInfo.cs
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.csproj.CoreCompileInputs.cache
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.dll
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\refint\Event.Utility.dll
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.pdb
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\Event.Utility.genruntimeconfig.cache
+C:\Users\musas\OneDrive\Desktop\EventApplicationA\build-a-web-for-sale-event-tickets-tourist-places\Event.Utility\obj\Debug\net6.0\ref\Event.Utility.dll
