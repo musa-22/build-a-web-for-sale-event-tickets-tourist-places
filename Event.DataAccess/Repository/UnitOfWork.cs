@@ -18,6 +18,7 @@ namespace Event.DataAccess.Repository
 
             CategoryEev = new CategoryRpository(_db);
             evenTypeRp = new EvenTypeRpository(_db);
+            ProductEev = new ProductEventRpository(_db);
 
         }
 
@@ -25,6 +26,7 @@ namespace Event.DataAccess.Repository
         public ICategoryRpository CategoryEev { get; private set; }
 
         public IEvenTypeRpository evenTypeRp { get; private set; }
+       public IProductEventRpository ProductEev { get; private set; }
 
         public void Save()
         {

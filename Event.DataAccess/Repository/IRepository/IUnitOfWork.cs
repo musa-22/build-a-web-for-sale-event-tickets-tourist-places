@@ -11,6 +11,7 @@ namespace Event.DataAccess.Repository.IRepository
 
        ICategoryRpository CategoryEev { get; }
        IEvenTypeRpository evenTypeRp  { get; }
+        IProductEventRpository ProductEev { get; }
         void Save();
     }
 }

@@ -15,7 +15,7 @@ namespace EeventWebApplication.Areas.Admin.Controllers
 
     [Area("Admin")]
                  
-    public class CategoryEventTypeController : Controller
+    public class ProductEventTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -25,7 +25,7 @@ namespace EeventWebApplication.Areas.Admin.Controllers
          */
 
 
-        public CategoryEventTypeController(IUnitOfWork unitOfWork)
+        public ProductEventTypeController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -61,7 +61,7 @@ namespace EeventWebApplication.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
 
-               // _unitOfWork.evenTypeRp.Add(obj);
+             //   _unitOfWork.evenTypeRp.Add(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "EventsTypes created successfuly";
                 // here i directed the view to index view,

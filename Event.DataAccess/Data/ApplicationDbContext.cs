@@ -32,5 +32,5 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<EventsTypes> eventsTypes { get; set; }
 
-
+    public DbSet<ProductEvents> Products { get; set; }
 }
